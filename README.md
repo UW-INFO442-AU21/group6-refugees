@@ -4,7 +4,7 @@
 
 ### **RAUWR (Refugee Asylee University of Washington Resource)**
 
-### *Connecting refugees to resourcess*
+### *Connecting huskies to service projects and educating on asylum and refugee processes*
 
 This repository will hold the most up to date files in regards to the INFO 442 project.
 
