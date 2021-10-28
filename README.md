@@ -9,5 +9,3 @@
 This repository will hold the most up to date files in regards to the INFO 442 project.
 
 Hello World!
-
-Test Text
