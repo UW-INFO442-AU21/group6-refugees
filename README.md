@@ -1,6 +1,6 @@
 # group6-refugees
 
-## **Chance Landis, Angelina Lum, Ethan Kuhn, Kaanma Rishi, Padma Gundapaneni**
+## **Kaanma Rishi, Angelina Lum, Ethan Kuhn, Padma Gundapaneni, Chance Landis**
 
 ### **RAUWR (Refugee Asylee University of Washington Resource)**
 
