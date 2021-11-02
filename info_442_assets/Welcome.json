@@ -1,0 +1,37 @@
+{
+    "welcome": [
+        {
+            "initial_welcome": "We are RAUWR: Refugee Asylee University of Washington Resource. A service that assists the general UW population and all of its staff and students in learning more about the process of seeking Asylum or Refuge in the United States and how we can help those seeking Asylum or Refuge in our community with services or needs that they have."
+        },
+
+        {
+            "our_work": "As the team behind RAUWR, we seek to provide communities here at UW with the information neccessary to come together and serve others in our communities that are in a vulnerable position. An individual applyinf for Asylum or Refuge is seeking protection due to well-founded fear or reason of persecution. Due to these reasons, they need support building from the ground up and we all have a part in strengthening our communities with mutual aid and support. RAUWR centralizes information and service for you to assist the Refugees and Asylees in our area. "  
+        },
+
+        {
+            "meet_the_team_1":"Kaamna Rishi",
+            "role":"Project Manager"
+        },
+
+        {
+            "meet_the_team_2":"Angelina Lum",
+            "role":"UX Researcher + UX Designer"
+        },
+
+        {
+            "meet_the_team_3":"Ethan Kuhn",
+            "role":"UX Designer + Frontend Development"
+        },
+
+        {
+            "meet_the_team_4":"Padma Gundapeni",
+            "role":"Developer"
+        },
+
+        {
+            "meet_the_team_1":"Chance Landis",
+            "role":"Developer"
+        }
+    ]
+
+}
