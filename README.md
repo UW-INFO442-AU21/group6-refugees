@@ -1,7 +1,6 @@
 # RAUWR (Refugee Asylee University of Washington Resource)
+## Our Team
 Group 6 PJs
-
-## Names
 Kaamna Rishi, Angelina Lum, Ethan Kuhn, Padma Gundapaneni, Chance Landis**
 
 ## Objective
