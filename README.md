@@ -1,7 +1,7 @@
 # RAUWR (Refugee Asylee University of Washington Resource)
 ## Our Team
 Group 6 PJs
-Kaamna Rishi, Angelina Lum, Ethan Kuhn, Padma Gundapaneni, Chance Landis**
+Kaamna Rishi, Angelina Lum, Ethan Kuhn, Padma Gundapaneni, Chance Landis
 
 ## Objective
 ### *Connecting huskies to service projects and educating on asylum and refugee processes*
