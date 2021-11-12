@@ -1,0 +1,25 @@
+{
+    "groups":[
+       {
+          "event_one":"Volunteer Booth",
+          "hosted_by":"Jane Dove",
+          "date":"November 5th, 2021",
+          "time":"05:00 PM - 07:00 PM",
+          "location":"Issaquah, Washington"
+       },
+       {
+          "event_two":"Donation Drive",
+          "hosted_by":"John Doe",
+          "date":"November 21st, 2021",
+          "time":"09:00 AM - 12:00 PM",
+          "location":"Seattle, Washington"
+       },
+       {
+          "event_three":"Welcome Wishlist",
+          "hosted_by":"John Jane",
+          "date":"November 20th, 2021",
+          "time":"12:00 PM - 03:00 PM",
+          "location":"Kent, Washington"
+       }
+    ]
+ }
