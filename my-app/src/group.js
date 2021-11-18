@@ -12,7 +12,7 @@ function Group() {
                 <h2>Start a short term service group!</h2>
             </header>
             <Button variant="primary">Create Group +</Button>
-            <Row xs={1} md={2} lg={auto} className="g-4">
+            <Row xs={1} md={2} lg='auto' className="g-4">
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
@@ -26,6 +26,8 @@ function Group() {
                             <Button variant="primary">View More</Button>
                         </Card.Body>
                     </Card>
+                </Col>
+                <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title>Donation Booth</Card.Title>
@@ -38,6 +40,8 @@ function Group() {
                             <Button variant="primary">View More</Button>
                         </Card.Body>
                     </Card>
+                </Col>
+                <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title>Welcome Wishlist</Card.Title>
