@@ -1,6 +1,14 @@
 {
     "groups":[
        {
+          "page_description":"At the University of Washington, there a limited amount of groups and organizations that are serving the asylee and refugee communities. You can make a difference by starting a short-term service group with your peers and volunteer!"
+       },
+
+       {
+          "instructions":"Click on 'View More' to find out the details of the event and who is already signed up! If you have inspiration for your own event, create a group! If you are looking for inspiration, see our Orgs page to learn about what Seattle organizations are seeking assistance with in their efforts."
+       },
+
+       {
           "event_one":"Volunteer Booth",
           "hosted_by":"Jane Dove",
           "date":"November 5th, 2021",
