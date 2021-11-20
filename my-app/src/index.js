@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
-import Group from './group';
+//import Group from './group';
+import Orgs from './orgs';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Group />
+    <Orgs />
   </React.StrictMode>,
   document.getElementById('root')
 );
