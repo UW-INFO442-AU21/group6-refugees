@@ -15,9 +15,9 @@ function Orgs() {
                     services that are required by the local community.
                 </h2>
             </header>
-            <Row xs={1} md={1} className="g-4">
+            <Row xs={1} md={1}>
                 <Col>
-                    <Card style={{ width: '5rem' }}>
+                    <Card className="m-2">
                         <Card.Body>
                             <Card.Title>The International Rescue Committee</Card.Title>
                             <Card.Link href="https://www.rescue.org/united-states/seattle-wa">Link to Site</Card.Link>
@@ -34,7 +34,7 @@ function Orgs() {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card style={{ width: '5rem' }}>
+                    <Card className="m-2">
                         <Card.Body>
                             <Card.Title>Northwest Immigrant Right Project</Card.Title>
                             <Card.Link href="https://www.nwirp.org">Link to Site</Card.Link>
@@ -49,7 +49,7 @@ function Orgs() {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card style={{ width: '5rem' }}>
+                    <Card className="m-2">
                         <Card.Body>
                             <Card.Title>American Civil Liberties Union</Card.Title>
                             <Card.Link href="https://www.aclu-wa.org">Link to Site</Card.Link>
