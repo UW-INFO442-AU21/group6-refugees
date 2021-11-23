@@ -1,3 +1,15 @@
+.Group{
+    margin-top: 5px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: center;
+}
+
 .GroupHeader{
     color: white;
+}
+
+.g-4{
+    justify-content: center;
+    margin-top: 5px;
 }
