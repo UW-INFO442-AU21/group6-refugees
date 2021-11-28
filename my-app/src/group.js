@@ -26,6 +26,7 @@ function Group() {
             <Row xs={1} md={2} lg='auto' className="g-4">
                 <Col>
                     <Card className='cardbg' style={{ width: '18rem'}}>
+                    <Card.Img variant='top' src="picture_assets/volunteer_booth.jpeg"/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Volunteer Booth</Card.Title>
@@ -44,6 +45,7 @@ function Group() {
                 </Col>
                 <Col>
                     <Card className='cardbg' style={{ width: '18rem' }}>
+                    <Card.Img variant='top' src="picture_assets/volunteer_booth.jpeg"/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Donation Booth</Card.Title>
@@ -62,6 +64,7 @@ function Group() {
                 </Col>
                 <Col>
                     <Card className='cardbg' style={{ width: '18rem' }}>
+                    <Card.Img variant='top' src="picture_assets/volunteer_booth.jpeg"/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Welcome Wishlist</Card.Title>
