@@ -6,7 +6,49 @@
 }
 
 .GroupHeader{
-    color: white;
+    color:#FEF8E7;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 72px;
+}
+
+.Header2{
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+}
+
+.Desc{
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    font-size: 1.2rem;
+}
+
+.mainbtn{
+    font-size: 2rem;
+}
+
+.cardbg{
+    background: #FEF8E7!important;
+    font-family: 'Quicksand';
+}
+
+.cardtitle{
+    font-family: 'Poppins';
+}
+
+.textalign{
+    text-align: left;
+    color: #367c7a;
+}
+
+button{
+    font-family: 'Poppins';
+    background-color: #367c7a !important;
+    color: #FEF8E7 !important;
+}
+
+.btn-right{
+    text-align: right;
 }
 
 .g-4{
