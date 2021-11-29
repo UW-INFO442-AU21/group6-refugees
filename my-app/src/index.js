@@ -8,7 +8,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Group />
+    <Group/>
+    <Orgs />
   </React.StrictMode>,
   document.getElementById('root')
 );
