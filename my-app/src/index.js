@@ -6,6 +6,7 @@ import Home from './home';
 import Learn from './learn';
 import Group from './group';
 import Orgs from './orgs';
+import Group_MyGroup from './group_mygroup';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -14,6 +15,7 @@ ReactDOM.render(
     <Learn/>
     <Group/>
     <Orgs />
+    <Group_MyGroup/>
   </React.StrictMode>,
   document.getElementById('root')
 );
