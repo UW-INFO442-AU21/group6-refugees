@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
+import Home from './home';
+import Learn from './learn';
 import Group from './group';
 import Orgs from './orgs';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Home/>
+    <Learn/>
     <Group/>
     <Orgs />
   </React.StrictMode>,

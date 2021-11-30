@@ -1,0 +1,47 @@
+.Home{
+    margin-top: 5px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: left;
+}
+
+.WelcomeHeader{
+    color:#FEF8E7;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 100px;
+}
+
+.OurWorkHeader{
+    color:#FEF8E7;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 72px;
+}
+
+.TeamHeader{
+    color:#FEF8E7;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 72px;
+}
+
+.Desc{
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    font-size: 1.2rem;
+}
+
+.WelcomeDesc{
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    font-size: 1.2rem;
+    margin-top: 7px;
+}
+
+img {
+    height: auto; 
+    width: auto; 
+    max-width: 350px; 
+    max-height: 350px;
+}
