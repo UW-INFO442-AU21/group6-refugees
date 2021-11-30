@@ -1,18 +1,17 @@
-.Group{
-    margin-top: 5px;
+.Group{margin-top: 5px;
     margin-left: 5rem;
     margin-right: 5rem;
     text-align: center;
 }
 
-.GroupHeader{
+h1{
     color:#FEF8E7;
     font-family: 'Poppins';
     font-weight: 800;
     font-size: 72px;
 }
 
-.Header2{
+h2{
     color: #FEF8E7;
     font-family: 'Quicksand';
 }
@@ -34,11 +33,13 @@
 
 .cardtitle{
     font-family: 'Poppins';
+    font-size: 1.5rem;
 }
 
 .textalign{
     text-align: left;
     color: #367c7a;
+    font-size: 0.9rem;
 }
 
 button{

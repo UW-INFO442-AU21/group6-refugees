@@ -5,5 +5,29 @@
 
 .OrgsHeader{
     justify-content: center;
-    color: white;
+    color:#FEF8E7;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 72px;
+}
+
+h2 {
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+}
+
+.textalign{
+    text-align: left;
+    color: #367c7a;
+    font-size: 0.9rem;
+}
+
+.cardtitle{
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+}
+
+.cardbg{
+    background: #FEF8E7!important;
+    font-family: 'Quicksand';
 }
