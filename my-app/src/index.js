@@ -5,6 +5,7 @@ import './index.css';
 import Group from './group';
 import Orgs from './orgs';
 import Group_MyGroup from './group_mygroup';
+import GForm from './form';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -12,6 +13,7 @@ ReactDOM.render(
     <Group/>
     <Orgs />
     <Group_MyGroup/>
+    <GForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
