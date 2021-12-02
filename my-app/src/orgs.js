@@ -17,7 +17,7 @@ function Orgs() {
             </header>
             <Row xs={1} md={1} lg='auto' className="g-4">
                 <Col>
-                    <Card className='cardbg mb-2' style={{ width: '80em'}}>
+                    <Card className='cardbg mb-2 mx-auto'>
                         <Card.Img variant='top' src="picture_assets/intl_rescue.jpeg"/>
                         <div className='textalign'>
                             <Card.Body>
@@ -37,7 +37,7 @@ function Orgs() {
                             </Card.Body>
                         </div>
                     </Card>
-                    <Card className='cardbg mb-2' style={{ width: '80em'}}>
+                    <Card className='cardbg mb-2 mx-auto'>
                         <Card.Img variant='top' src="picture_assets/northwest_rights.jpeg"/>
                         <div className='textalign'>
                             <Card.Body>
@@ -55,7 +55,7 @@ function Orgs() {
                             </Card.Body>
                         </div>
                     </Card>
-                    <Card className='cardbg mb-2' style={{ width: '80em'}}>
+                    <Card className='cardbg mb-2 mx-auto'>
                         <Card.Img variant='top' src="picture_assets/aclu_logo.jpeg"/>
                         <div className='textalign'>
                             <Card.Body>

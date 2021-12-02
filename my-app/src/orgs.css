@@ -5,6 +5,7 @@
 
 .OrgsHeader{
     justify-content: center;
+    text-align: center;
     color:#FEF8E7;
     font-family: 'Poppins';
     font-weight: 800;
@@ -30,4 +31,10 @@ h2 {
 .cardbg{
     background: #FEF8E7!important;
     font-family: 'Quicksand';
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
 }
