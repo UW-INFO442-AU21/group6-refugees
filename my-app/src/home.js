@@ -15,7 +15,7 @@ function Home() {
                             community with services or needs that they have.</p>
                     </div>
                     <div class="col-12 col-lg-4 col-md-6">
-                        <img src="https://raw.githubusercontent.com/UW-INFO442-AU21/group6-refugees/main/my-app/src/picture_assets/image%201.png" alt="" class="img-responsive float-right mr-3"/>
+                        <img src="https://raw.githubusercontent.com/UW-INFO442-AU21/group6-refugees/clform/my-app/src/picture_assets/image%201.png" alt="" class="img-responsive float-right mr-3"/>
                     </div>
                 </div>
             </header>

@@ -17,6 +17,8 @@ function Learn() {
                 as a refugee. The film analyzes situational scenarios of
                 several asylum applicants and the associated asylum officers
                 that interview these individuals.</p>
+            <a href="https://www.pbs.org/pov/watch/wellfoundedfear/"><img src="https://raw.githubusercontent.com/UW-INFO442-AU21/group6-refugees/main/my-app/src/picture_assets/well_founded_fear.png" alt=""/></a>
+
             <h2 className="TimelineHeader">Timeline</h2>
             <p className="TimelineDesc">Many are not aware of the complex system that is successfully
             seeking asylum or refuge. The many documents, interviews, stakeholders, and emotional

@@ -29,13 +29,13 @@
 .Desc{
     color: #FEF8E7;
     font-family: 'Quicksand';
-    font-size: 1.2rem;
+    font-size: 30px;
 }
 
 .WelcomeDesc{
     color: #FEF8E7;
     font-family: 'Quicksand';
-    font-size: 1.2rem;
+    font-size: 30px;
     margin-top: 7px;
 }
 
@@ -44,4 +44,5 @@ img {
     width: auto; 
     max-width: 350px; 
     max-height: 350px;
+    display: block;
 }
