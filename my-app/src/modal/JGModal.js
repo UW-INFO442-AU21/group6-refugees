@@ -14,7 +14,7 @@ function JGModal(props) {
         >
         <Modal.Header closeButton>
             <Modal.Title id="contained-modal-title-vcenter">
-            CREATE GROUP
+                Join Group
             </Modal.Title>
         </Modal.Header>
         <Modal.Body>

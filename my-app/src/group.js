@@ -18,7 +18,7 @@ function Group() {
                     At the University of Washington, there a limited amount of groups and
                     organizations that are serving the asylee and refugee communities.
                     You can make a difference by starting a short-term service group with your peers
-                    and volunteer!"
+                    and volunteer!
                 </h2>
             </header>
                 <p className='Desc'>
