@@ -4,7 +4,7 @@ import './index.css';
 //import App from './App';
 import Group from './group';
 import Orgs from './orgs';
-import Group_MyGroup from './group_mygroup';
+import GroupMygroup from './group_mygroup';
 import GForm from './form';
 import reportWebVitals from './reportWebVitals';
 
@@ -12,7 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Group/>
     <Orgs />
-    <Group_MyGroup/>
+    <GroupMygroup/>
     <GForm />
   </React.StrictMode>,
   document.getElementById('root')

@@ -3,8 +3,13 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import React from 'react';
+import VBModal from './modal/VBModal';
+import JGModal from './modal/JGModal';
 
 function Group() {
+    const [modalShow1, setModalShow1] = React.useState(false);
+    const [modalShow2, setModalShow2] = React.useState(false);
     return (
         <div className="Group">
             <header>
@@ -26,7 +31,7 @@ function Group() {
             <Row xs={1} md={2} lg='auto' className="g-4">
                 <Col>
                     <Card className='cardbg mb-2' style={{ width: '18rem'}}>
-                    <Card.Img variant='top' src="\picture_assets\volunteer_booth.jpeg"/>
+                    <Card.Img variant='top' src="/picture_assets/volunteer_booth.jpeg"/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Volunteer Booth</Card.Title>
@@ -36,9 +41,22 @@ function Group() {
                                     05:00 PM - 07:00 PM<br/>
                                     Issaquah, WA
                                 </Card.Text>
-                                <div className="btn-right">
-                                    <Button>View More</Button>
-                                </div> 
+                                <div className="btn-cntr">
+                                    <Button variant="primary" onClick={() => setModalShow1(true)}>
+                                        View More
+                                    </Button>
+                                    <VBModal
+                                        show={modalShow1}
+                                        onHide={() => setModalShow1(false)}
+                                    />
+                                    <Button variant="primary" onClick={()=>setModalShow2(true)}>
+                                        Join Group
+                                    </Button>
+                                    <JGModal
+                                        show={modalShow2}
+                                        onHide={() => setModalShow2(false)}
+                                    />
+                                </div>
                             </Card.Body>
                         </div>
                     </Card>
@@ -55,7 +73,7 @@ function Group() {
                                     09:00 AM - 12:00 PM<br/>
                                     Seattle, WA
                                 </Card.Text>
-                                <div className="btn-right">
+                                <div className="btn-cntr">
                                     <Button>View More</Button>
                                 </div>    
                             </Card.Body>
@@ -74,7 +92,7 @@ function Group() {
                                     12:00 PM - 03:00 PM<br/>
                                     Kent, WA
                                 </Card.Text>
-                                <div className="btn-right">
+                                <div className="btn-cntr">
                                     <Button>View More</Button>
                                 </div> 
                             </Card.Body>
