@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App';
 import Group from './group';
 import Orgs from './orgs';
 import GroupMygroup from './group_mygroup';
-import GForm from './form';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -13,7 +11,6 @@ ReactDOM.render(
     <Group/>
     <Orgs />
     <GroupMygroup/>
-    <GForm />
   </React.StrictMode>,
   document.getElementById('root')
 );

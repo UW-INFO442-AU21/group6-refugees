@@ -6,10 +6,12 @@ import Col from 'react-bootstrap/Col';
 import React from 'react';
 import VBModal from './modal/VBModal';
 import JGModal from './modal/JGModal';
+import FormModal from './modal/FormModal';
 
 function Group() {
     const [modalShow1, setModalShow1] = React.useState(false);
     const [modalShow2, setModalShow2] = React.useState(false);
+    const [modalShow3, setModalShow3] = React.useState(false);
     return (
         <div className="Group">
             <header>
@@ -21,17 +23,23 @@ function Group() {
                     and volunteer!
                 </h2>
             </header>
-                <p className='Desc'>
-                    Click on 'View More' to find out the details of the event and who is already
-                    signed up! If you have inspiration for your own event, create a group!
-                    If you are looking for inspiration, see our Orgs page to learn about what
-                    Seattle organizations are seeking assistance with in their efforts.
-                </p>
-            <Button size="lg" className='mainbtn'>Create Group +</Button>
+            <p className='Desc'>
+                Click on 'View More' to find out the details of the event and who is already
+                signed up! If you have inspiration for your own event, create a group!
+                If you are looking for inspiration, see our Orgs page to learn about what
+                Seattle organizations are seeking assistance with in their efforts.
+            </p>
+            <Button size="lg" className='mainbtn' onClick={()=>setModalShow3(true)}>
+                Create Group +
+            </Button>
+            <FormModal
+                show={modalShow3}
+                onHide={() => setModalShow3(false)}
+            />
             <Row xs={1} md={2} lg='auto' className="g-4">
                 <Col>
                     <Card className='cardbg mb-2' style={{ width: '18rem'}}>
-                    <Card.Img variant='top' src="/picture_assets/volunteer_booth.jpeg"/>
+                        <Card.Img variant='top' src="/picture_assets/volunteer_booth.jpeg"/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Volunteer Booth</Card.Title>
@@ -63,7 +71,7 @@ function Group() {
                 </Col>
                 <Col>
                     <Card className='cardbg mb-2' style={{ width: '18rem' }}>
-                    <Card.Img variant='top' src="picture_assets/volunteer_booth.jpeg"/>
+                        <Card.Img variant='top' src="picture_assets/volunteer_booth.jpeg"/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Donation Booth</Card.Title>
@@ -82,7 +90,7 @@ function Group() {
                 </Col>
                 <Col>
                     <Card className='cardbg mb-2' style={{ width: '18rem' }}>
-                    <Card.Img variant='top' src="picture_assets/volunteer_booth.jpeg"/>
+                        <Card.Img variant='top' src="picture_assets/volunteer_booth.jpeg"/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Welcome Wishlist</Card.Title>

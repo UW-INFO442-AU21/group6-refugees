@@ -1,6 +1,5 @@
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 
@@ -23,7 +22,15 @@ function JGModal(props) {
                 <Form>
                     <Form.Group controlId="form.Name" className='formmar'>
                         <Form.Label>Name:</Form.Label>
-                        <Form.Control type="text" placeholder="Enter name" />
+                        <Form.Control type="text" placeholder="Fname Lname" readOnly/>
+                    </Form.Group>
+                    <Form.Group controlId="form.Email" className='formmar'>
+                        <Form.Label>UW Email:</Form.Label>
+                        <Form.Control type="email" placeholder="email@uw.edu" readOnly/>
+                    </Form.Group>
+                    <Form.Group controlId="form.Phone" className='formmar'>
+                        <Form.Label>Phone Number:</Form.Label>
+                        <Form.Control type="phone" placeholder="(111)-222-3333" readOnly/>
                     </Form.Group>
                 </Form>
                 <Button>Join Group</Button>
