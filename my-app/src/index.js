@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { BrowserRouter, Route, Routes} from 'react-router-dom'
+import { NavBar } from './navbar';
+import Home from './home';
+import Learn from './learn';
 import Group from './group';
 import Orgs from './orgs';
 import GroupMygroup from './group_mygroup';
@@ -8,9 +12,16 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Group/>
-    <Orgs />
-    <GroupMygroup/>
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route path="/learn" element={<Learn />}></Route>
+        <Route path="/group" element={<Group />}></Route>
+        <Route path ="/orgs" element={<Orgs />}></Route>
+      </Routes>
+      <Group_MyGroup/>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

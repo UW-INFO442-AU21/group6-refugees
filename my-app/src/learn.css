@@ -1,0 +1,57 @@
+.Learn{
+    margin-top: 5px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: left;
+}
+
+.LearnHeader{
+    color:#FEF8E7;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 100px;
+    text-align: center;
+}
+
+.VideoTitleHeader{
+    color:#FEF8E7;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 72px;
+}
+
+.TimelineHeader{
+    color:#FEF8E7;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 72px;
+}
+
+.LearnDesc{
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    text-align: center;
+}
+
+.VideoDesc{
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.TimelineDesc{
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+img {
+    height: auto; 
+    width: auto; 
+    min-width: 700px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
