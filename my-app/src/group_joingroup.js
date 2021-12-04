@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import React from 'react';
-import VBModal_Join from './modal/VBModal_Join';
+import VBModalJoin from './modal/VBModal_Join';
 import FormModal from './modal/FormModal';
 
 function JoinGroup() {
@@ -51,7 +51,7 @@ function JoinGroup() {
                                     <Button variant="primary" onClick={() => setModalShow1(true)}>
                                         View More
                                     </Button>
-                                    <VBModal_Join
+                                    <VBModalJoin
                                         show={modalShow1}
                                         onHide={() => setModalShow1(false)}
                                     />

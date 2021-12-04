@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import React from 'react';
 
 
-function VBModal_Join(props) {
+function VBModalJoin(props) {
     return (
         <Modal
             {...props}
@@ -51,4 +51,4 @@ function VBModal_Join(props) {
     );
   }
   
-  export default VBModal_Join;
+  export default VBModalJoin;
