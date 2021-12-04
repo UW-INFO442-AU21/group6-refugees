@@ -20,7 +20,7 @@ ReactDOM.render(
         <Route path="/group" element={<Group />}></Route>
         <Route path ="/orgs" element={<Orgs />}></Route>
       </Routes>
-      <Group_MyGroup/>
+      <GroupMygroup/>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
