@@ -2,6 +2,8 @@ import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
+import { LinkContainer } from 'react-router-bootstrap';
+import { Nav } from 'react-bootstrap';
 
 function JGModal(props) {
     return (
@@ -33,7 +35,11 @@ function JGModal(props) {
                         <Form.Control type="phone" placeholder="(111)-222-3333" readOnly/>
                     </Form.Group>
                 </Form>
-                <Button>Join Group</Button>
+                <LinkContainer to="/joingroup">
+                    <Nav.Link>
+                        <Button>Join Group</Button>
+                    </Nav.Link>
+                </LinkContainer>
             </Container>
         </div>
         </Modal.Body>
