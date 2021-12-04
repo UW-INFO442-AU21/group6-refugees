@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function Group_MyGroup() {
+function GroupMygroup() {
     return (
         <div className="Group">
             <header>
@@ -105,4 +105,4 @@ function Group_MyGroup() {
     );
 }
 
-export default Group_MyGroup;
+export default GroupMygroup;
