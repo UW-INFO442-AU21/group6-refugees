@@ -8,6 +8,7 @@ import Learn from './learn';
 import Group from './group';
 import Orgs from './orgs';
 import GroupMygroup from './group_mygroup';
+import JoinGroup from './group_joingroup';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -19,8 +20,9 @@ ReactDOM.render(
         <Route path="/learn" element={<Learn />}></Route>
         <Route path="/group" element={<Group />}></Route>
         <Route path ="/orgs" element={<Orgs />}></Route>
+        <Route path ="/newgroup" element={<GroupMygroup/>}></Route>
+        <Route path ="/joingroup" element={<JoinGroup/>}></Route>
       </Routes>
-      <GroupMygroup/>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

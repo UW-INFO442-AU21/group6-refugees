@@ -2,6 +2,8 @@ import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
+import { LinkContainer } from 'react-router-bootstrap';
+import { Nav } from 'react-bootstrap';
 
 function FormModal(props) {
     return (
@@ -61,8 +63,12 @@ function FormModal(props) {
                         <Form.Control type="time" placeholder="02:00 PM" />
                     </Form.Group>
                 </Form>
-                <Button>Create Group</Button>
             </Container>
+            <LinkContainer to="/newgroup">
+                    <Nav.Link>
+                        <Button>Create Group</Button>
+                    </Nav.Link>
+            </LinkContainer>
         </div>
         </Modal.Body>
         <Modal.Footer>
