@@ -87,11 +87,11 @@ function GroupMygroup() {
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>My Group</Card.Title>
-                                <Card.Subtitle className="mb-2">Hosted by: Fname Lname</Card.Subtitle>
+                                <Card.Subtitle className="mb-2">Hosted by: Chance Landis</Card.Subtitle>
                                 <Card.Text>
-                                    Month DD, Year<br/>
-                                    01:00 AM - 12:00 PM<br/>
-                                    City, ST
+                                    November 30, 2021<br/>
+                                    10:30 AM - 02:00 PM<br/>
+                                    Seattle, WA
                                 </Card.Text>
                                 <div className="btn-right">
                                     <Button>View More</Button>
