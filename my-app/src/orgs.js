@@ -18,7 +18,7 @@ function Orgs() {
             <Row xs={1} md={1} lg='auto' className="g-4">
                 <Col>
                     <Card className='cardbg mb-2 mx-auto'>
-                        <Card.Img variant='top' src="picture_assets/intl_rescue.jpeg"/>
+                        <Card.Img variant='top' src="https://github.com/UW-INFO442-AU21/group6-refugees/blob/main/my-app/src/picture_assets/intl_rescue.jpeg?raw=true"/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>The International Rescue Committee</Card.Title>
@@ -38,7 +38,7 @@ function Orgs() {
                         </div>
                     </Card>
                     <Card className='cardbg mb-2 mx-auto'>
-                        <Card.Img variant='top' src="picture_assets/northwest_rights.jpeg"/>
+                        <Card.Img variant='top' src="https://github.com/UW-INFO442-AU21/group6-refugees/blob/main/my-app/src/picture_assets/northwest_rights.jpeg?raw=true"/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Northwest Immigrant Right Project</Card.Title>
@@ -56,7 +56,7 @@ function Orgs() {
                         </div>
                     </Card>
                     <Card className='cardbg mb-2 mx-auto'>
-                        <Card.Img variant='top' src="picture_assets/aclu_logo.jpeg"/>
+                        <Card.Img variant='top' src="https://github.com/UW-INFO442-AU21/group6-refugees/blob/main/my-app/src/picture_assets/aclu_logo.png?raw=true"/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>American Civil Liberties Union</Card.Title>

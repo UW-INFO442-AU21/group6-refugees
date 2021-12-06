@@ -39,7 +39,7 @@ function Group() {
             <Row xs={1} md={2} lg='auto' className="g-4">
                 <Col>
                     <Card className='cardbg mb-2' style={{ width: '18rem'}}>
-                        <Card.Img variant='top' src="/picture_assets/volunteer_booth.jpeg"/>
+                        <Card.Img className='card-img' variant='top' src="https://github.com/UW-INFO442-AU21/group6-refugees/blob/main/my-app/src/picture_assets/volunteer_booth.jpeg?raw=true"/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Volunteer Booth</Card.Title>
@@ -70,8 +70,8 @@ function Group() {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className='cardbg mb-2' style={{ width: '18rem' }}>
-                        <Card.Img variant='top' src="picture_assets/volunteer_booth.jpeg"/>
+                    <Card className='cardbg mb-2' style={{ width: '18rem'}}>
+                        <Card.Img className='card-img' variant='top' src="https://raw.githubusercontent.com/UW-INFO442-AU21/group6-refugees/main/my-app/src/picture_assets/donation_drive.jpeg"/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Donation Booth</Card.Title>
@@ -89,8 +89,8 @@ function Group() {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className='cardbg mb-2' style={{ width: '18rem' }}>
-                        <Card.Img variant='top' src="picture_assets/volunteer_booth.jpeg"/>
+                    <Card className='cardbg mb-2' style={{ width: '18rem'}}>
+                        <Card.Img className='card-img' variant='top' src="https://github.com/UW-INFO442-AU21/group6-refugees/blob/main/my-app/src/picture_assets/wishlist.jpeg?raw=true"/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Welcome Wishlist</Card.Title>
