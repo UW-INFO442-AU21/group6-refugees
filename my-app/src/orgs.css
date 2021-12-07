@@ -1,6 +1,8 @@
 .Orgs{
     margin: auto;
+    margin-top: 4%;
     text-align: center;
+    margin-bottom: 10%;
 }
 
 .OrgsHeader{
@@ -43,6 +45,8 @@ h2 {
 .cardbg{
     background: #FEF8E7!important;
     font-family: 'Quicksand';
+    margin: 2%;
+
 }
 
 @media screen and (max-width: 768px) {

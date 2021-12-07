@@ -1,5 +1,5 @@
 .Group{
-    margin-top: 5px;
+    margin-top: 4%;
     margin-left: 5rem;
     margin-right: 5rem;
     text-align: center;
@@ -17,6 +17,7 @@
 .groupDesc{
     color: #FEF8E7;
     font-family: 'Quicksand';
+    margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -61,6 +62,7 @@ button{
     font-family: 'Poppins';
     background-color: #367c7a !important;
     color: #FEF8E7 !important;
+    margin: 2%;
 }
 
 .btn-cntr{
@@ -71,7 +73,7 @@ button{
 .g-4{
     justify-content: center;
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
 }
 
 @media screen and (max-width: 768px) {
