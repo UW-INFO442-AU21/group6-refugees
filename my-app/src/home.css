@@ -39,10 +39,9 @@
     margin-top: 7px;
 }
 
-img {
-    height: auto; 
-    width: auto; 
-    max-width: 350px; 
-    max-height: 350px;
-    display: block;
+.cardimg {
+    max-width:100%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
