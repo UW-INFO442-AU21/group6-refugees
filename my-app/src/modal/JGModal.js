@@ -37,14 +37,14 @@ function JGModal(props) {
                 </Form>
                 <LinkContainer to="/joingroup">
                     <Nav.Link>
-                        <Button>Join Group</Button>
+                        <Button aria-label="Join Group">Join Group</Button>
                     </Nav.Link>
                 </LinkContainer>
             </Container>
         </div>
         </Modal.Body>
         <Modal.Footer>
-            <Button onClick={props.onHide}>Close</Button>
+            <Button aria-label="Close" onClick={props.onHide}>Close</Button>
         </Modal.Footer>
       </Modal>
     );

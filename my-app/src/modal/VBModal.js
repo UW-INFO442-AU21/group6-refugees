@@ -44,7 +44,7 @@ function VBModal(props) {
             </Card>
         </Modal.Body>
         <Modal.Footer>
-            <Button onClick={props.onHide}>Close</Button>
+            <Button aria-label="Close" onClick={props.onHide}>Close</Button>
         </Modal.Footer>
       </Modal>
     );
