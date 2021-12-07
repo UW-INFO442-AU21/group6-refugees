@@ -24,15 +24,15 @@ function JGModal(props) {
                 <Form>
                     <Form.Group controlId="form.Name" className='formmar'>
                         <Form.Label>Name:</Form.Label>
-                        <Form.Control type="text" placeholder="Fname Lname" readOnly/>
+                        <Form.Control type="text" placeholder="Fname Lname"/>
                     </Form.Group>
                     <Form.Group controlId="form.Email" className='formmar'>
                         <Form.Label>UW Email:</Form.Label>
-                        <Form.Control type="email" placeholder="email@uw.edu" readOnly/>
+                        <Form.Control type="email" placeholder="email@uw.edu"/>
                     </Form.Group>
                     <Form.Group controlId="form.Phone" className='formmar'>
                         <Form.Label>Phone Number:</Form.Label>
-                        <Form.Control type="phone" placeholder="(111)-222-3333" readOnly/>
+                        <Form.Control type="phone" placeholder="(111)-222-3333"/>
                     </Form.Group>
                 </Form>
                 <LinkContainer to="/joingroup">

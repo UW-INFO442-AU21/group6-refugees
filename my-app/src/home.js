@@ -38,11 +38,12 @@ function Home() {
                 up and we all have a part in strengthening our communities with
                 mutual aid and support. RAUWR centralizes information and service
                 for you to assist the Refugees and Asylees in our area.</p>
+
             <h2 className="TeamHeader">MEET THE TEAM</h2>
             <Row xs={1} md={2} lg='auto' className="g-4">
                 <Col>
                     <Card className='cardbg mb-2' style={{ width: '18rem'}}>
-                    <Card.Img classname = 'cardimg' variant='top' src=""/>
+                    <Card.Img classname = 'h-cardimg' variant='top' src=""/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Kaamna Rishi</Card.Title>
@@ -53,7 +54,7 @@ function Home() {
                 </Col>
                 <Col>
                     <Card className='cardbg mb-2' style={{ width: '18rem' }}>
-                    <Card.Img classname = 'cardimg' variant='top' src=""/>
+                    <Card.Img classname = 'h-cardimg' variant='top' src=""/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Angelina Lum</Card.Title>
@@ -64,7 +65,7 @@ function Home() {
                 </Col>
                 <Col>
                     <Card className='cardbg mb-2' style={{ width: '18rem' }}>
-                    <Card.Img classname = 'cardimg' variant='top' src=""/>
+                    <Card.Img classname = 'h-cardimg' variant='top' src=""/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Ethan Kuhn</Card.Title>
@@ -77,7 +78,7 @@ function Home() {
             <Row xs={1} md={2} lg='auto' className="g-4">
                 <Col>
                     <Card className='cardbg mb-2' style={{ width: '18rem'}}>
-                    <Card.Img classname = 'cardimg' variant='top' src=""/>
+                    <Card.Img classname = 'h-cardimg' variant='top' src=""/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Padma Gundapaneni</Card.Title>
@@ -88,7 +89,7 @@ function Home() {
                 </Col>
                 <Col>
                     <Card className='cardbg mb-2' style={{ width: '18rem' }}>
-                    <Card.Img classname = 'cardimg' variant='top' src=""/>
+                    <Card.Img classname = 'h-cardimg' variant='top' src=""/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Chance Landis</Card.Title>
