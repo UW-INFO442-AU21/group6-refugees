@@ -5,24 +5,31 @@
     text-align: center;
 }
 
-h1{
+.groupHeader{
     color:#FEF8E7;
     font-family: 'Poppins';
     font-weight: 800;
-    font-size: 80px;
+    font-size: 90px;
     text-align: center;
+    margin-top: 4rem;
 }
 
-h2{
+.groupDesc{
     color: #FEF8E7;
     font-family: 'Quicksand';
     margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .Desc{
     color: #FEF8E7;
     font-family: 'Quicksand';
     font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .mainbtn{
@@ -67,4 +74,18 @@ button{
     justify-content: center;
     margin-top: 5px;
     margin-bottom: 3%;
+}
+
+@media screen and (max-width: 768px) {
+    .groupHeader {
+        font-size: 60px;
+    }
+    .Desc {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .groupDesc {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
 }

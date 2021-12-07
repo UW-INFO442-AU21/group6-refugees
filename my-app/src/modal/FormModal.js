@@ -66,13 +66,13 @@ function FormModal(props) {
             </Container>
             <LinkContainer to="/newgroup">
                     <Nav.Link>
-                        <Button>Create Group</Button>
+                        <Button aria-label="Create Group">Create Group</Button>
                     </Nav.Link>
             </LinkContainer>
         </div>
         </Modal.Body>
         <Modal.Footer>
-            <Button onClick={props.onHide}>Close</Button>
+            <Button aria-label="Close" onClick={props.onHide}>Close</Button>
         </Modal.Footer>
       </Modal>
     );

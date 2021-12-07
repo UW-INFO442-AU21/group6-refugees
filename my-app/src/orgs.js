@@ -2,23 +2,26 @@ import './orgs.css'
 import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import irc_img from './picture_assets/intl_rescue.jpeg'
+import nirp_img from './picture_assets/northwest_rights.jpeg'
+import aclu_img from './picture_assets/aclu_logo.png'
 
 function Orgs() {
     return(
         <div className='Orgs'>
             <header className="OrgsHeader">
-                <h1>ORGANIZATIONS</h1>
-                <h2>
+                <h1 className="Organizations">ORGANIZATIONS</h1>
+                <p className = "organizationsDesc">
                     Get connected to a range of organizations in the Seattle
                     area that are looking for service volunteers in various ways!
                     Below you can find their pages where they list projects or
                     services that are required by the local community.
-                </h2>
+                </p>
             </header>
             <Row xs={1} md={1} lg='auto' className="g-4">
                 <Col>
-                    <Card className='cardbg mb-2 mx-auto'>
-                        <Card.Img variant='top' src="https://github.com/UW-INFO442-AU21/group6-refugees/blob/main/my-app/src/picture_assets/intl_rescue.jpeg?raw=true"/>
+                    <Card className='cardbg mb-2 mx-5'>
+                        <Card.Img alt="International Rescue Committee Logo" title="International Rescue Committee Logo" variant='top' src={irc_img} />
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>The International Rescue Committee</Card.Title>
@@ -37,8 +40,8 @@ function Orgs() {
                             </Card.Body>
                         </div>
                     </Card>
-                    <Card className='cardbg mb-2 mx-auto'>
-                        <Card.Img variant='top' src="https://github.com/UW-INFO442-AU21/group6-refugees/blob/main/my-app/src/picture_assets/northwest_rights.jpeg?raw=true"/>
+                    <Card className='cardbg mb-2 mx-5'>
+                        <Card.Img alt="Northwest Immigrant Right Project Logo" title="Northwest Immigrant Right Project Logo" variant='top' src={nirp_img}/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Northwest Immigrant Right Project</Card.Title>
@@ -55,8 +58,8 @@ function Orgs() {
                             </Card.Body>
                         </div>
                     </Card>
-                    <Card className='cardbg mb-2 mx-auto'>
-                        <Card.Img variant='top' src="https://github.com/UW-INFO442-AU21/group6-refugees/blob/main/my-app/src/picture_assets/aclu_logo.png?raw=true"/>
+                    <Card className='cardbg mb-2 mx-5'>
+                        <Card.Img alt="American Civil Liberties Union Logo" title="American Civil Liberties Union Logo" variant='top' src={aclu_img}/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>American Civil Liberties Union</Card.Title>

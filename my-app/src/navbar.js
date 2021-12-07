@@ -17,11 +17,11 @@ export function NavBar() {
                     <LinkContainer to="/learn">
                         <Nav.Link className="navLink">LEARN</Nav.Link>
                     </LinkContainer>
-                    <LinkContainer to="/group">
-                        <Nav.Link className="navLink">GROUPS</Nav.Link>
-                    </LinkContainer>
                     <LinkContainer to="/orgs">
                         <Nav.Link className="navLink">ORGs</Nav.Link>
+                    </LinkContainer>
+                    <LinkContainer to="/group">
+                        <Nav.Link className="navLink">GROUPS</Nav.Link>
                     </LinkContainer>
                 </Nav>
             </Navbar.Collapse>
