@@ -41,34 +41,34 @@ function Home() {
             <h2 className="TeamHeader">MEET THE TEAM</h2>
             <Row xs={1} md={2} lg='auto' className="g-4">
                 <Col>
-                    <Card className='cardbg mb-2' style={{ width: '18rem'}}>
-                    <Card.Img classname = 'cardimg' variant='top' src=""/>
+                    <Card className='cardbg mb-2 border-0' style={{ width: '18rem'}}>
+                    <Card.Img classname = 'cardimg' variant='top' src={kaamna}/>
                         <div className='textalign'>
-                            <Card.Body>
-                                <Card.Title className='cardtitle'>Kaamna Rishi</Card.Title>
-                                <Card.Subtitle className="mb-2">Product Manager</Card.Subtitle>
+                            <Card.Body className = "team-cardbody">
+                                <Card.Title className='team-cardtitle'>Kaamna Rishi</Card.Title>
+                                <Card.Subtitle className="team-subtitle mb-2">Product Manager</Card.Subtitle>
                             </Card.Body>
                         </div>
                     </Card>
                 </Col>
                 <Col>
-                    <Card className='cardbg mb-2' style={{ width: '18rem' }}>
-                    <Card.Img classname = 'cardimg' variant='top' src=""/>
+                    <Card className='cardbg mb-2 border-0' style={{ width: '18rem' }}>
+                    <Card.Img classname = 'cardimg' variant='top' src={angelina}/>
                         <div className='textalign'>
-                            <Card.Body>
-                                <Card.Title className='cardtitle'>Angelina Lum</Card.Title>
-                                <Card.Subtitle className="mb-2">UX Researcher + UX Designer</Card.Subtitle>
+                            <Card.Body className = "team-cardbody">
+                                <Card.Title className='team-cardtitle'>Angelina Lum</Card.Title>
+                                <Card.Subtitle className="team-subtitle mb-2">UX Researcher + UX Designer</Card.Subtitle>
                             </Card.Body>
                         </div>    
                     </Card>
                 </Col>
                 <Col>
-                    <Card className='cardbg mb-2' style={{ width: '18rem' }}>
-                    <Card.Img classname = 'cardimg' variant='top' src=""/>
+                    <Card className='cardbg mb-2 border-0' style={{ width: '18rem' }}>
+                    <Card.Img classname = 'cardimg' variant='top' src={ethan}/>
                         <div className='textalign'>
-                            <Card.Body>
-                                <Card.Title className='cardtitle'>Ethan Kuhn</Card.Title>
-                                <Card.Subtitle className="mb-2">UX Researcher + UX Designer</Card.Subtitle>
+                            <Card.Body className = "team-cardbody">
+                                <Card.Title className='team-cardtitle'>Ethan Kuhn</Card.Title>
+                                <Card.Subtitle className="team-subtitle mb-2">UX Researcher + UX Designer</Card.Subtitle>
                             </Card.Body>
                         </div>    
                     </Card>
@@ -76,23 +76,23 @@ function Home() {
             </Row>
             <Row xs={1} md={2} lg='auto' className="g-4">
                 <Col>
-                    <Card className='cardbg mb-2' style={{ width: '18rem'}}>
-                    <Card.Img classname = 'cardimg' variant='top' src=""/>
+                    <Card className='cardbg mb-2 border-0' style={{ width: '18rem'}}>
+                    <Card.Img classname = 'cardimg' variant='top' src={padma}/>
                         <div className='textalign'>
-                            <Card.Body>
-                                <Card.Title className='cardtitle'>Padma Gundapaneni</Card.Title>
-                                <Card.Subtitle className="mb-2">Developer</Card.Subtitle>
+                            <Card.Body className = "team-cardbody">
+                                <Card.Title className='team-cardtitle'>Padma Gundapaneni</Card.Title>
+                                <Card.Subtitle className="team-subtitle mb-2">Developer</Card.Subtitle>
                             </Card.Body>
                         </div>
                     </Card>
                 </Col>
                 <Col>
-                    <Card className='cardbg mb-2' style={{ width: '18rem' }}>
-                    <Card.Img classname = 'cardimg' variant='top' src=""/>
+                    <Card className='cardbg mb-2 border-0' style={{ width: '18rem' }}>
+                    <Card.Img classname = 'cardimg' variant='top' src={chance}/>
                         <div className='textalign'>
-                            <Card.Body>
-                                <Card.Title className='cardtitle'>Chance Landis</Card.Title>
-                                <Card.Subtitle className="mb-2">Developer</Card.Subtitle>
+                            <Card.Body className = "team-cardbody">
+                                <Card.Title className='team-cardtitle'>Chance Landis</Card.Title>
+                                <Card.Subtitle className="team-subtitle mb-2">Developer</Card.Subtitle>
                             </Card.Body>
                         </div>    
                     </Card>
