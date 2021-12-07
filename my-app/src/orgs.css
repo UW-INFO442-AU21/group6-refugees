@@ -9,7 +9,17 @@
     color:#FEF8E7;
     font-family: 'Poppins';
     font-weight: 800;
-    font-size: 72px;
+    margin-top: 4rem;
+}
+
+.Organizations {
+    font-size: 100px!important;
+}
+
+.organizationsDesc {
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    font-size: 30px;
 }
 
 h2 {
