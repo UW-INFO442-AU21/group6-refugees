@@ -4,16 +4,15 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import React from 'react';
-import VBModal from './modal/VBModal';
-import JGModal from './modal/JGModal';
+import VBModalJoin from './modal/VBModal_Join';
 import FormModal from './modal/FormModal';
 import vol_img from "./picture_assets/volunteer_booth.jpeg"
 import don_img from "./picture_assets/donation_drive.jpeg"
 import ww_img from "./picture_assets/wishlist.jpeg"
 
-function Group() {
+
+function JoinGroup() {
     const [modalShow1, setModalShow1] = React.useState(false);
-    const [modalShow2, setModalShow2] = React.useState(false);
     const [modalShow3, setModalShow3] = React.useState(false);
     return (
         <div className="Group">
@@ -56,24 +55,20 @@ function Group() {
                                     <Button aria-label="View More" variant="primary" onClick={() => setModalShow1(true)}>
                                         View More
                                     </Button>
-                                    <VBModal
+                                    <VBModalJoin
                                         show={modalShow1}
                                         onHide={() => setModalShow1(false)}
                                     />
-                                    <Button aria-label="Join Group" variant="primary" onClick={()=>setModalShow2(true)}>
+                                    <Button aria-label="Join Group" variant="primary">
                                         Join Group
                                     </Button>
-                                    <JGModal
-                                        show={modalShow2}
-                                        onHide={() => setModalShow2(false)}
-                                    />
                                 </div>
                             </Card.Body>
                         </div>
                     </Card>
                 </Col>
                 <Col>
-                    <Card className='cardbg mb-2' style={{ width: '18rem'}}>
+                    <Card className='cardbg mb-2' style={{ width: '18rem' }}>
                         <Card.Img title="Donation Booth" alt="People donating goods at a donation center" className='card-img' variant='top' src={don_img}/>
                         <div className='textalign'>
                             <Card.Body>
@@ -92,7 +87,7 @@ function Group() {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className='cardbg mb-2' style={{ width: '18rem'}}>
+                    <Card className='cardbg mb-2' style={{ width: '18rem' }}>
                         <Card.Img title="Welcome Wishlist" alt="Image of a Wishlist" className='card-img' variant='top' src={ww_img}/>
                         <div className='textalign'>
                             <Card.Body>
@@ -115,4 +110,4 @@ function Group() {
     );
 }
 
-export default Group;
+export default JoinGroup;

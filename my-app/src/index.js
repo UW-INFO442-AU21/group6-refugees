@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App';
 import { BrowserRouter, Route, Routes} from 'react-router-dom'
 import { NavBar } from './navbar';
 import Home from './home';
 import Learn from './learn';
 import Group from './group';
 import Orgs from './orgs';
-import Group_MyGroup from './group_mygroup';
+import GroupMygroup from './group_mygroup';
+import JoinGroup from './group_joingroup';
 import reportWebVitals from './reportWebVitals';
+import Footer from './footer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,9 +21,11 @@ ReactDOM.render(
         <Route path="/learn" element={<Learn />}></Route>
         <Route path="/group" element={<Group />}></Route>
         <Route path ="/orgs" element={<Orgs />}></Route>
+        <Route path ="/newgroup" element={<GroupMygroup/>}></Route>
+        <Route path ="/joingroup" element={<JoinGroup/>}></Route>
       </Routes>
-      <Group_MyGroup/>
     </BrowserRouter>
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

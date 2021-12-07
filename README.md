@@ -19,3 +19,6 @@ This repository will hold the most up to date files in regards to the INFO 442 p
 
 ## Design 
 * [High-Fidelity Wireframes](https://www.figma.com/file/hp3cJ6cjIWMy32GNRJUU9y/INFO-442-Wireframes?node-id=33%3A4)
+
+## Presentation
+Linked here: https://www.canva.com/design/DAEv6aM_rHU/share/preview?token=-fzLCDkxzqvccRBMmM475g&role=EDITOR&utm_content=DAEv6aM_rHU&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton

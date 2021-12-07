@@ -1,4 +1,5 @@
-.Group{margin-top: 5px;
+.Group{
+    margin-top: 5px;
     margin-left: 5rem;
     margin-right: 5rem;
     text-align: center;
@@ -9,6 +10,7 @@ h1{
     font-family: 'Poppins';
     font-weight: 800;
     font-size: 72px;
+    text-align: center;
 }
 
 h2{
@@ -31,6 +33,12 @@ h2{
     font-family: 'Quicksand';
 }
 
+.card-img {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+
 .cardtitle{
     font-family: 'Poppins';
     font-size: 1.5rem;
@@ -48,9 +56,10 @@ button{
     color: #FEF8E7 !important;
 }
 
-.btn-right{
-    text-align: right;
+.btn-cntr{
+    text-align: center;
 }
+
 
 .g-4{
     justify-content: center;
