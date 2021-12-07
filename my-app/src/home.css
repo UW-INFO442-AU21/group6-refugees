@@ -17,6 +17,7 @@
     font-family: 'Poppins';
     font-weight: 800;
     font-size: 72px;
+    margin-top: 3rem;
 }
 
 .TeamHeader{
@@ -24,6 +25,7 @@
     font-family: 'Poppins';
     font-weight: 800;
     font-size: 72px;
+    margin-top: 3rem;
 }
 
 .Desc{
@@ -40,8 +42,24 @@
 }
 
 .cardimg {
-    max-width:100%;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100px;
     object-fit: cover;
+}
+
+.team-cardtitle {
+    font-family: 'Quicksand';
+    color:#FEF8E7;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.team-cardbody {
+    background-color: #172051;
+}
+
+.team-subtitle {
+    color:#FEF8E7;
+    font-size: 18px;
+    font-weight: 300;
 }
