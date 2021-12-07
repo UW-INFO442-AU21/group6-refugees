@@ -29,7 +29,7 @@ function Home() {
                 </div>
             </header>
             <h2 className="OurWorkHeader">OUR WORK</h2>
-            <p className="Desc"> As the team behind RAUWR, we seek to provide communities
+            <p className="WorkDesc"> As the team behind RAUWR, we seek to provide communities
                 here at UW with the information neccessary to come together
                 and serve others in our communities that are in a vulnerable
                 position. An individual applying for Asylum or Refuge is seeking

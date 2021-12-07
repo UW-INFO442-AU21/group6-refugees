@@ -77,6 +77,15 @@
     .vocab-card {
         height: 400px;
     }
+    .LearnHeader {
+        font-size: 80px;
+    }
+    .TimelineHeader {
+        font-size: 55px;
+    }
+    .VideoTitleHeader {
+        font-size: 55px;
+    }
 }
 
 @media screen and (max-width: 992px) {

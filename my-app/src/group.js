@@ -18,8 +18,8 @@ function Group() {
     return (
         <div className="Group">
             <header>
-                <h1>SHORT-TERM SERVICE GROUPS</h1>
-                <h2>
+                <h1 className="groupHeader">SHORT-TERM SERVICE GROUPS</h1>
+                <h2 className = "groupDesc">
                     At the University of Washington, there a limited amount of groups and
                     organizations that are serving the asylee and refugee communities.
                     You can make a difference by starting a short-term service group with your peers
