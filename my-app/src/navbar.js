@@ -15,13 +15,13 @@ export function NavBar() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
                     <LinkContainer to="/learn">
-                        <Nav.Link className="navLink">Learn</Nav.Link>
-                    </LinkContainer>
-                    <LinkContainer to="/group">
-                        <Nav.Link className="navLink">Groups</Nav.Link>
+                        <Nav.Link className="navLink">LEARN</Nav.Link>
                     </LinkContainer>
                     <LinkContainer to="/orgs">
                         <Nav.Link className="navLink">ORGs</Nav.Link>
+                    </LinkContainer>
+                    <LinkContainer to="/group">
+                        <Nav.Link className="navLink">GROUPS</Nav.Link>
                     </LinkContainer>
                 </Nav>
             </Navbar.Collapse>
