@@ -1,5 +1,5 @@
 .Group{
-    margin-top: 5px;
+    margin-top: 4%;
     margin-left: 5rem;
     margin-right: 5rem;
     text-align: center;
@@ -9,13 +9,14 @@ h1{
     color:#FEF8E7;
     font-family: 'Poppins';
     font-weight: 800;
-    font-size: 72px;
+    font-size: 80px;
     text-align: center;
 }
 
 h2{
     color: #FEF8E7;
     font-family: 'Quicksand';
+    margin-top: 2%;
 }
 
 .Desc{
@@ -54,6 +55,7 @@ button{
     font-family: 'Poppins';
     background-color: #367c7a !important;
     color: #FEF8E7 !important;
+    margin: 2%;
 }
 
 .btn-cntr{
@@ -64,4 +66,5 @@ button{
 .g-4{
     justify-content: center;
     margin-top: 5px;
+    margin-bottom: 3%;
 }
