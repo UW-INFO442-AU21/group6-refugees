@@ -15,7 +15,7 @@ function Home() {
             <header>
                 <h1 className="WelcomeHeader">WELCOME!</h1>
                 <div class="row">
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
                         <p className="WelcomeDesc">We are RAUWR: Refugee Asylee University of Washington
                             Resource. A service that assists the general UW population
                             and all of its staff and students in learning more about the
@@ -23,13 +23,13 @@ function Home() {
                             how we can help those seeking Asylum or Refuge in our
                             community with services or needs that they have.</p>
                     </div>
-                    <div class="col-12 col-lg-6 col-md-6">
-                        <img className = "migrants" src={migrants} alt="Migrants" class="img-responsive float-right mr-3"/>
+                    <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                        <img src={migrants} alt="Migrants" class="migrants img-responsive float-right mr-3"/>
                     </div>
                 </div>
             </header>
             <h2 className="OurWorkHeader">OUR WORK</h2>
-            <p className="Desc"> As the team behind RAUWR, we seek to provide communities
+            <p className="WorkDesc"> As the team behind RAUWR, we seek to provide communities
                 here at UW with the information neccessary to come together
                 and serve others in our communities that are in a vulnerable
                 position. An individual applying for Asylum or Refuge is seeking

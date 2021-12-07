@@ -11,6 +11,7 @@
     font-weight: 800;
     font-size: 100px;
     margin-top: 4rem;
+    margin-bottom: 1rem;
 }
 
 .OurWorkHeader{
@@ -19,6 +20,7 @@
     font-weight: 800;
     font-size: 72px;
     margin-top: 3rem;
+    margin-bottom: 0.5rem;
 }
 
 .TeamHeader{
@@ -27,12 +29,13 @@
     font-weight: 800;
     font-size: 72px;
     margin-top: 3rem;
+    margin-bottom: 0.5rem;
 }
 
-.Desc{
+.WorkDesc{
     color: #FEF8E7;
     font-family: 'Quicksand';
-    font-size: 30px;
+    font-size: 1.2rem;
 }
 
 .WelcomeDesc{
@@ -63,4 +66,42 @@
     color:#FEF8E7;
     font-size: 18px;
     font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .WelcomeHeader {
+        font-size: 80px;
+    }
+    .migrants {
+        max-width: 460px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .migrants {
+        max-width: 400px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .migrants {
+        max-width: 450px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .migrants {
+        max-width: 550px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .migrants {
+        max-width: 700px;
+        height: auto;
+    }
 }
