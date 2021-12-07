@@ -27,3 +27,9 @@
   margin-top: 10px;
   margin-left: 50px;
 }
+
+@media only screen and (max-width: 480px) {
+  .names {
+    font-size: .5rem;
+  }
+}
