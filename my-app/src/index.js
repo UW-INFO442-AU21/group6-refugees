@@ -10,6 +10,7 @@ import Orgs from './orgs';
 import GroupMygroup from './group_mygroup';
 import JoinGroup from './group_joingroup';
 import reportWebVitals from './reportWebVitals';
+import Footer from './footer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -24,6 +25,7 @@ ReactDOM.render(
         <Route path ="/joingroup" element={<JoinGroup/>}></Route>
       </Routes>
     </BrowserRouter>
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
