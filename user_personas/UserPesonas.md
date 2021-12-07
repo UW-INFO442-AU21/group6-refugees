@@ -2,7 +2,7 @@
 
 During our design process, our team first created three user personas. These three user personas would be RAUWR's ideal users, which would be UW Students and Faculty who are wanting to learn more about refugee and asylees. Our personas are from the understanding of our team's own student perspectives. With our team being part of various clubs/organizations and coming from different backgrounds, we were able to create personas of various demographics and psychographics. 
 
-They can be seen as (Tim Booker)[tim_persona.png], (Abi Lee)[abi_persona.png], and (Professor Patricia)[pat_persona.png]. Since RAUWR is targeted towards UW students and faculty, all three personas are affiliated with the University. 
+They can be seen as Tim Booker, Abi Lee, and Professor Patricia. Since RAUWR is targeted towards UW students and faculty, all three personas are affiliated with the University. 
 
 ## Persona Descriptions 
 
