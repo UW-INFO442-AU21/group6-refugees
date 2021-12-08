@@ -10,13 +10,13 @@ function Orgs() {
     return(
         <div className='Orgs'>
             <header className="OrgsHeader">
-                <h1>ORGANIZATIONS</h1>
-                <h2>
+                <h1 className="Organizations">ORGANIZATIONS</h1>
+                <p className = "organizationsDesc">
                     Get connected to a range of organizations in the Seattle
                     area that are looking for service volunteers in various ways!
                     Below you can find their pages where they list projects or
                     services that are required by the local community.
-                </h2>
+                </p>
             </header>
             <Row xs={1} md={1} lg='auto' className="g-4">
                 <Col>

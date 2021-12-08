@@ -1,6 +1,8 @@
 .Orgs{
     margin: auto;
+    margin-top: 4%;
     text-align: center;
+    margin-bottom: 10%;
 }
 
 .OrgsHeader{
@@ -9,7 +11,19 @@
     color:#FEF8E7;
     font-family: 'Poppins';
     font-weight: 800;
-    font-size: 72px;
+    margin-top: 4rem;
+}
+
+.Organizations {
+    font-size: 100px;
+}
+
+.organizationsDesc {
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 h2 {
@@ -31,6 +45,7 @@ h2 {
 .cardbg{
     background: #FEF8E7!important;
     font-family: 'Quicksand';
+    margin: 2%;
 }
 
 .card-img-g {
@@ -42,5 +57,13 @@ h2 {
 @media (max-width: 480px) {
     h1 {
         font-size: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Organizations {
+        font-size: 60px;
+    }
+    .organizationsDesc {
+        font-size: 22px;
     }
 }
