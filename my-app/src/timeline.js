@@ -10,7 +10,7 @@ function Timeline() {
                 className="vertical-timeline-element--work"
                 iconStyle={{ background: '#367c7a', color: '#FEF8E7' }}
             >
-                <h3 className="vertical-timeline-element-title">Contact the local UNHCR Or USRP Office</h3>
+                <h3 className="vertical-timeline-element-title">Contact the local UNHCR or USRP Office</h3>
                 <p className = "timeline-desc">
                     Depending on what country you're in, you may need to start by
                     approaching a representative of the United Nations High Commissioner
