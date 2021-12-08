@@ -52,6 +52,22 @@
     text-align: center;
 }
 
+.VocabHeader {
+    color:#FEF8E7;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 72px;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.VocabDesc {
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    font-size: 1.2rem;
+    text-align: center;
+}
+
 .video-img {
     height: auto; 
     width: auto; 
@@ -67,16 +83,7 @@
     justify-content: center;
 }
 
-.vocab-card {
-    background: #FEF8E7!important;
-    font-family: 'Quicksand';
-    height: 360px;
-}
-
 @media screen and (max-width: 768px) {
-    .vocab-card {
-        height: 400px;
-    }
     .LearnHeader {
         font-size: 80px;
     }
@@ -88,14 +95,11 @@
     }
 }
 
-@media screen and (max-width: 992px) {
-    .vocab-card {
-        height: 360px;
-    }
+.vocabModals {
+    margin-top: 1rem;
 }
 
-@media only screen and (min-width: 1200px) {
-    .vocab-card {
-        height: 280px;
-    }
+.btn {
+    margin: 2px;
+    font-size: 22px;
 }
