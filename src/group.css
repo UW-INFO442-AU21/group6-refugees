@@ -1,0 +1,91 @@
+.Group{
+    margin-top: 4%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: center;
+}
+
+.groupHeader{
+    color:#FEF8E7;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.groupDesc{
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.Desc{
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.mainbtn{
+    font-size: 2rem;
+}
+
+.cardbg{
+    background: #FEF8E7!important;
+    font-family: 'Quicksand';
+}
+
+.card-img {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+
+.cardtitle{
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+}
+
+.textalign{
+    text-align: left;
+    color: #367c7a;
+    font-size: 0.9rem;
+}
+
+button{
+    font-family: 'Poppins';
+    background-color: #367c7a !important;
+    color: #FEF8E7 !important;
+    margin: 2%;
+}
+
+.btn-cntr{
+    text-align: center;
+}
+
+
+.g-4{
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 3%;
+}
+
+@media screen and (max-width: 768px) {
+    .groupHeader {
+        font-size: 60px;
+    }
+    .Desc {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .groupDesc {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}

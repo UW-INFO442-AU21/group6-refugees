@@ -1,0 +1,109 @@
+.Learn{
+    margin-top: 4%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: left;
+}
+
+.LearnHeader{
+    color:#FEF8E7;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.VideoTitleHeader{
+    color:#FEF8E7;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 72px;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.TimelineHeader{
+    color:#FEF8E7;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 72px;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.LearnDesc{
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    text-align: center;
+}
+
+.VideoDesc{
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.TimelineDesc{
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.VocabHeader {
+    color:#FEF8E7;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 72px;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.VocabDesc {
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.video-img {
+    height: auto; 
+    width: auto; 
+    min-width: 700px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.float-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .LearnHeader {
+        font-size: 80px;
+    }
+    .TimelineHeader {
+        font-size: 55px;
+    }
+    .VideoTitleHeader {
+        font-size: 55px;
+    }
+    .vocab-btn {
+        margin: 2px;
+        font-size: 16px;
+    }
+}
+
+.vocabModals {
+    margin-top: 1rem;
+}
+
+.vocab-btn {
+    margin: 2px;
+    font-size: 22px;
+}

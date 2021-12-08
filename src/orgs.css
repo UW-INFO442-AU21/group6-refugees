@@ -1,0 +1,69 @@
+.Orgs{
+    margin: auto;
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.OrgsHeader{
+    justify-content: center;
+    text-align: center;
+    color:#FEF8E7;
+    font-family: 'Poppins';
+    font-weight: 800;
+    margin-top: 4rem;
+}
+
+.Organizations {
+    font-size: 100px;
+}
+
+.organizationsDesc {
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2 {
+    color: #FEF8E7;
+    font-family: 'Quicksand';
+}
+
+.textalign{
+    text-align: left;
+    color: #367c7a;
+    font-size: 0.9rem;
+}
+
+.cardtitle{
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+}
+
+.cardbg{
+    background: #FEF8E7!important;
+    font-family: 'Quicksand';
+    margin: 2%;
+}
+
+.card-img-g {
+    width: 100%;
+    height: 10vw;
+    object-fit:contain;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Organizations {
+        font-size: 60px;
+    }
+    .organizationsDesc {
+        font-size: 22px;
+    }
+}
