@@ -1,16 +1,17 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import './timeline.css';
 
 function Timeline() {
     return (
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#FFF' }}
+                iconStyle={{ background: '#367c7a', color: '#FEF8E7' }}
             >
-                <h3 className="vertical-timeline-element-title">Contact the local UNHCR OR USRP Office</h3>
-                <p>
+                <h3 className="vertical-timeline-element-title">Contact the local UNHCR Or USRP Office</h3>
+                <p className = "timeline-desc">
                     Depending on what country you're in, you may need to start by
                     approaching a representative of the United Nations High Commissioner
                     for Refugees (UNHCR) or U.S. Refugee Program (USRP) in your locality.
@@ -22,10 +23,10 @@ function Timeline() {
 
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                iconStyle={{ background: '#367c7a', color: '#FEF8E7' }}
             >
                 <h3 className="vertical-timeline-element-title">Contact a nearby USCIS Office</h3>
-                <p>
+                <p className = "timeline-desc">
                     Your next step is to find a USCIS office that can provide you
                     with the application form and other necessary materials, and
                     orient you to what's required. This is also the office that
@@ -38,10 +39,10 @@ function Timeline() {
 
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                iconStyle={{ background: '#367c7a', color: '#FEF8E7' }}
             >
                 <h3 className="vertical-timeline-element-title">Fill out a Form 1-590 and Other Documents</h3>
-                <p>
+                <p className = "timeline-desc">
                     This is the main form used to apply for refugee status. You'll
                     need to attach some other, backup forms to this one, including
                     Form G-325C (Biographic Information) and Form FD-258
@@ -51,10 +52,10 @@ function Timeline() {
 
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                iconStyle={{ background: '#367c7a', color: '#FEF8E7' }}
             >
                 <h3 className="vertical-timeline-element-title">Financial Sponsor Arrangements</h3>
-                <p>
+                <p className = "timeline-desc">
                     In order to apply for refugee status in the United States,
                     you must have an assurance of financial support -- enough
                     to pay for your travel to the United States and initial
@@ -68,10 +69,10 @@ function Timeline() {
   
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
-                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                iconStyle={{ background: '#367c7a', color: '#FEF8E7' }}
             >
                 <h3 className="vertical-timeline-element-title">Consider Family Members</h3>
-                <p>
+                <p className = "timeline-desc">
                     If you are married and/or have children younger than 21
                     years, you can apply for their refugee status along with
                     yours. For this, you need to attach documents proving
@@ -81,10 +82,10 @@ function Timeline() {
   
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
-                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                iconStyle={{ background: '#367c7a', color: '#FEF8E7' }}
             >
                 <h3 className="vertical-timeline-element-title">Collect Evidence for your Case</h3>
-                <p>
+                <p className = "timeline-desc">
                     First, you need to prove your identity, by any means
                     possible (USCIS recognizes that you may have fled too
                     quickly to get a passport). Perhaps you still have your
@@ -115,10 +116,10 @@ function Timeline() {
   
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
-                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                iconStyle={{ background: '#367c7a', color: '#FEF8E7' }}
             >
                 <h3 className="vertical-timeline-element-title">Attend a Interview at a USCIS Office</h3>
-                <p>
+                <p className = "timeline-desc">
                     After submitting your application to USCIS, it will call you and
                     your family members in for a personal interview. You'll be asked
                     to have medical examinations done soon beforehand. The USCIS
@@ -132,7 +133,7 @@ function Timeline() {
             </VerticalTimelineElement>
   
             <VerticalTimelineElement
-                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                iconStyle={{ background: '#367c7a', color: '#FEF8E7' }}
                 //icon={<StarIcon />}
             />
         </VerticalTimeline>
