@@ -24,7 +24,7 @@ function FormModal(props) {
                 <Form>
                     <Form.Group controlId="form.Name" className='formmar'>
                         <Form.Label>Name:</Form.Label>
-                        <Form.Control type="text" placeholder="Chance Landis" readOnly/>
+                        <Form.Control type="text" placeholder="First-Name Last-Name" readOnly/>
                     </Form.Group>
                     <Form.Group controlId="form.GName" className='formmar'>
                         <Form.Label>Group Name:</Form.Label>

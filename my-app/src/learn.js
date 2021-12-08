@@ -2,6 +2,7 @@ import './learn.css';
 import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Timeline from './timeline';
 import RefugeeModal from './modal/RefugeeModal';
 import AsyleeModal from './modal/AsyleeModal';
 import EligibleForRefugeModal from './modal/EligibleForRefugeModal';
@@ -124,6 +125,8 @@ function Learn() {
             seeking asylum or refuge. The many documents, interviews, stakeholders, and emotional
             burdance of the system is something we all can learn and empathize from. Follow along
             with this timeline for step by step process of seeking asylum or refuge.</p>
+
+            <Timeline/>
         </div>
     )
 }

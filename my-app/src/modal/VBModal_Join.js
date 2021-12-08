@@ -38,7 +38,7 @@ function VBModalJoin(props) {
                             4. Nylah Guerra <br/>
                             5. Nabilah Owen <br/>
                             6. Anastazia Browman <br/>
-                            7. Fname Lname
+                            7. Chance Landis
                         </Card.Text> 
                     </Card.Body>
                 </div>

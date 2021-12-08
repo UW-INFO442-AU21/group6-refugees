@@ -21,7 +21,7 @@ function Orgs() {
             <Row xs={1} md={1} lg='auto' className="g-4">
                 <Col>
                     <Card className='cardbg mb-2 mx-5'>
-                        <Card.Img alt="International Rescue Committee Logo" title="International Rescue Committee Logo" variant='top' src={irc_img} />
+                        <Card.Img className='card-img-g' alt="International Rescue Committee Logo" title="International Rescue Committee Logo" variant='top' src={irc_img} />
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>The International Rescue Committee</Card.Title>
@@ -41,7 +41,7 @@ function Orgs() {
                         </div>
                     </Card>
                     <Card className='cardbg mb-2 mx-5'>
-                        <Card.Img alt="Northwest Immigrant Right Project Logo" title="Northwest Immigrant Right Project Logo" variant='top' src={nirp_img}/>
+                        <Card.Img className='card-img-g' alt="Northwest Immigrant Right Project Logo" title="Northwest Immigrant Right Project Logo" variant='top' src={nirp_img}/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>Northwest Immigrant Right Project</Card.Title>
@@ -59,7 +59,7 @@ function Orgs() {
                         </div>
                     </Card>
                     <Card className='cardbg mb-2 mx-5'>
-                        <Card.Img alt="American Civil Liberties Union Logo" title="American Civil Liberties Union Logo" variant='top' src={aclu_img}/>
+                        <Card.Img className='card-img-g' alt="American Civil Liberties Union Logo" title="American Civil Liberties Union Logo" variant='top' src={aclu_img}/>
                         <div className='textalign'>
                             <Card.Body>
                                 <Card.Title className='cardtitle'>American Civil Liberties Union</Card.Title>
