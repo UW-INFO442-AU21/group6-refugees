@@ -46,7 +46,7 @@ function Learn() {
             <div className = "vocabModals">
                 <Row xs={1} md={2} lg='auto' className="g-4">
                 <div className="vocab-btn">
-                    <Button aria-label="Refugee" variant="primary" onClick={() => setModalShow1(true)}>
+                    <Button className="vocab-btn" aria-label="Refugee" variant="primary" onClick={() => setModalShow1(true)}>
                     Refugee
                     </Button>
                     <RefugeeModal
@@ -55,7 +55,7 @@ function Learn() {
                     />
                 </div>
                 <div className="vocab-btn">
-                    <Button aria-label="Asylee" variant="primary" onClick={() => setModalShow2(true)}>
+                    <Button className="vocab-btn" aria-label="Asylee" variant="primary" onClick={() => setModalShow2(true)}>
                     Asylee
                     </Button>
                     <AsyleeModal
@@ -64,7 +64,7 @@ function Learn() {
                     />
                 </div>
                 <div className="vocab-btn">
-                    <Button aria-label="Eligible for Refuge" variant="primary" onClick={() => setModalShow3(true)}>
+                    <Button className="vocab-btn" aria-label="Eligible for Refuge" variant="primary" onClick={() => setModalShow3(true)}>
                     Eligible for Refuge
                     </Button>
                     <EligibleForRefugeModal
@@ -73,7 +73,7 @@ function Learn() {
                     />
                 </div>
                 <div className="vocab-btn">
-                    <Button aria-label="Persecution" variant="primary" onClick={() => setModalShow4(true)}>
+                    <Button className="vocab-btn" aria-label="Persecution" variant="primary" onClick={() => setModalShow4(true)}>
                     Persecution
                     </Button>
                     <PersecutionModal
@@ -82,7 +82,7 @@ function Learn() {
                     />
                 </div>
                 <div className="vocab-btn">
-                    <Button aria-label="Applying for Green Card" variant="primary" onClick={() => setModalShow5(true)}>
+                    <Button className="vocab-btn" aria-label="Applying for Green Card" variant="primary" onClick={() => setModalShow5(true)}>
                     Applying for Green Card
                     </Button>
                     <GreenCardModal
@@ -91,7 +91,7 @@ function Learn() {
                     />
                 </div>
                 <div className="vocab-btn">
-                    <Button aria-label="Claim of Asylum" variant="primary" onClick={() => setModalShow6(true)}>
+                    <Button className="vocab-btn" aria-label="Claim of Asylum" variant="primary" onClick={() => setModalShow6(true)}>
                     Claim of Asylum
                     </Button>
                     <ClaimAsylumModal
@@ -100,7 +100,7 @@ function Learn() {
                     />
                 </div>
                 <div className="vocab-btn">
-                    <Button aria-label="Credible Fear" variant="primary" onClick={() => setModalShow7(true)}>
+                    <Button className="vocab-btn" aria-label="Credible Fear" variant="primary" onClick={() => setModalShow7(true)}>
                     Credible Fear
                     </Button>
                     <CredibleFearModal
@@ -109,7 +109,7 @@ function Learn() {
                     />
                 </div>
                 <div className="vocab-btn">
-                    <Button aria-label="Reasonable Fear" variant="primary" onClick={() => setModalShow8(true)}>
+                    <Button className="vocab-btn" aria-label="Reasonable Fear" variant="primary" onClick={() => setModalShow8(true)}>
                     Reasonable Fear
                     </Button>
                     <ReasonableFearModal
