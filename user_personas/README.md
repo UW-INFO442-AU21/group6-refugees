@@ -8,8 +8,8 @@ They can be seen as Tim Booker, Abi Lee, and Professor Patricia. Since RAUWR is 
 
 Each persona has an about section that discusses their past history at the UW or current job occupation. They all want to get involved in volunteering and have various experience with it. Additionally, our team made sure that we would understand different motivations of technology potential users could have. Each persona thus has various comfortability of working with technology. With Tim having the highest comfort and Abi having the lowest. Along with their motivations, we made sure to state their goals with volunteering and frustrations that limit them from reaching them.
 
-![Abi Persona](abi_persona.jpg?raw=true "Abi Lee")
+![Abi Persona](abi_persona.png?raw=true "Abi Lee")
 
-![Pat Persona](abi_persona.jpg?raw=true "Professor Patricia")
+![Pat Persona](pat_persona.png?raw=true "Professor Patricia")
 
-![Tim Persona](abi_persona.jpg?raw=true "Tim Booker")
+![Tim Persona](tim_persona.png?raw=true "Tim Booker")
