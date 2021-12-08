@@ -45,7 +45,7 @@ function Learn() {
             <p className="VocabDesc">There are terms that are important to better understand the process of asylum or refuge amongst the legal and social aspects. Below are some words we believe are helpful to know.</p>
             <div className = "vocabModals">
                 <Row xs={1} md={2} lg='auto' className="g-4">
-                <div className="vocab-btn">
+                <div>
                     <Button className="vocab-btn" aria-label="Refugee" variant="primary" onClick={() => setModalShow1(true)}>
                     Refugee
                     </Button>
@@ -54,7 +54,7 @@ function Learn() {
                     onHide={() => setModalShow1(false)}
                     />
                 </div>
-                <div className="vocab-btn">
+                <div>
                     <Button className="vocab-btn" aria-label="Asylee" variant="primary" onClick={() => setModalShow2(true)}>
                     Asylee
                     </Button>
@@ -63,7 +63,7 @@ function Learn() {
                     onHide={() => setModalShow2(false)}
                     />
                 </div>
-                <div className="vocab-btn">
+                <div>
                     <Button className="vocab-btn" aria-label="Eligible for Refuge" variant="primary" onClick={() => setModalShow3(true)}>
                     Eligible for Refuge
                     </Button>
@@ -72,7 +72,7 @@ function Learn() {
                     onHide={() => setModalShow3(false)}
                     />
                 </div>
-                <div className="vocab-btn">
+                <div>
                     <Button className="vocab-btn" aria-label="Persecution" variant="primary" onClick={() => setModalShow4(true)}>
                     Persecution
                     </Button>
@@ -81,7 +81,7 @@ function Learn() {
                     onHide={() => setModalShow4(false)}
                     />
                 </div>
-                <div className="vocab-btn">
+                <div>
                     <Button className="vocab-btn" aria-label="Applying for Green Card" variant="primary" onClick={() => setModalShow5(true)}>
                     Applying for Green Card
                     </Button>
@@ -90,7 +90,7 @@ function Learn() {
                     onHide={() => setModalShow5(false)}
                     />
                 </div>
-                <div className="vocab-btn">
+                <div>
                     <Button className="vocab-btn" aria-label="Claim of Asylum" variant="primary" onClick={() => setModalShow6(true)}>
                     Claim of Asylum
                     </Button>
@@ -99,7 +99,7 @@ function Learn() {
                     onHide={() => setModalShow6(false)}
                     />
                 </div>
-                <div className="vocab-btn">
+                <div>
                     <Button className="vocab-btn" aria-label="Credible Fear" variant="primary" onClick={() => setModalShow7(true)}>
                     Credible Fear
                     </Button>
@@ -108,7 +108,7 @@ function Learn() {
                     onHide={() => setModalShow7(false)}
                     />
                 </div>
-                <div className="vocab-btn">
+                <div>
                     <Button className="vocab-btn" aria-label="Reasonable Fear" variant="primary" onClick={() => setModalShow8(true)}>
                     Reasonable Fear
                     </Button>
