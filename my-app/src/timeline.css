@@ -9,3 +9,9 @@
     color: #367c7a;
     font-weight: 300;
 }
+
+@media screen and (max-width: 768px) {
+    .vertical-timeline-element-title {
+        font-size: 16px;
+    }
+}
