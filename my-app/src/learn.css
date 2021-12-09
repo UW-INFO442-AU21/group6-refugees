@@ -88,10 +88,13 @@
         font-size: 80px;
     }
     .TimelineHeader {
-        font-size: 55px;
+        font-size: 46px;
     }
     .VideoTitleHeader {
-        font-size: 55px;
+        font-size: 46px;
+    }
+    .VocabHeader {
+        font-size: 46px;
     }
     .vocab-btn {
         margin: 2px;

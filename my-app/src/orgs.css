@@ -55,13 +55,13 @@ h2 {
 }
 
 @media (max-width: 480px) {
-    h1 {
+    .Organizations {
         font-size: 30px;
     }
 }
 @media screen and (max-width: 768px) {
     .Organizations {
-        font-size: 60px;
+        font-size: 40px;
     }
     .organizationsDesc {
         font-size: 22px;

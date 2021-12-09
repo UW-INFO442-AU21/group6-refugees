@@ -70,10 +70,10 @@
 
 @media screen and (max-width: 768px) {
     .WelcomeHeader {
-        font-size: 80px;
+        font-size: 50px;
     }
     .migrants {
-        max-width: 460px;
+        max-width: 250px;
         height: auto;
     }
 }

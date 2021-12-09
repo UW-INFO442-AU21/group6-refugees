@@ -7,7 +7,7 @@ import './navbar.css';
 // This component handles the navigation bar at the top of the web app
 export function NavBar() {
     return (
-        <Navbar expand="lg" className="p-3" >
+        <Navbar expand="md" className="p-3" >
             <LinkContainer to="/">
                 <Navbar.Brand className="logo">RAUWR</Navbar.Brand>
             </LinkContainer>
